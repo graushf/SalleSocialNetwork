@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.androidtendencies.lasalle.sallesocialnetwork.SecondActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/autenticacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/autenticacion"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:textSize="17dp"/>
+
+    <EditText
+        android:id="@+id/email_input"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/email_default"/>
+
+    <TextView
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pass"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:textSize="17dp"/>
+
+    <EditText
+        android:id="@+id/pass_input"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:inputType="textPassword"
+        android:text="@string/pass"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pass"/>
+
+
+
+
+</LinearLayout>
